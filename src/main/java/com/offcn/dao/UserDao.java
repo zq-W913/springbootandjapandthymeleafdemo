@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface UserDao extends JpaRepository<User,Long> {
-/*    public User findByNameIs(String name);
-    public User findByNameAndAge(String name,Integer age);*/
+    /*分支提交*/
+    public User findByNameIs(String name);
+    public User findByNameAndAge(String name,Integer age);
 }
